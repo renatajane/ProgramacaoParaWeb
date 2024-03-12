@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patinhas Felizes</title>
+    <link rel="shortcut icon" href="./Imagens/logoTitulo.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+        integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <link rel="stylesheet" href="./Css/styles.css">
+    <script src="./Js/seu-arquivo.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="./Imagens/logo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="#filosofia" onclick="scrollToSection('#quemSomos')">Nossa Filosofia</a></li>
+                <li><a href="#equipe" onclick="scrollToSection('#containerEquipe')">Equipe</a></li>
+                <li><a href="#beneficiosPasseio" onclick="scrollToSection('#imagem1')">Vantagens</a></li>
+                <li><a href="#contratar" onclick="scrollToSection('#contratarServicos')">Contratar Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="imagemPasseio">
+        <div class="fraseInicial"><strong>Conheça a melhor escolha em passeios para pets na capital brasileira</strong>
+        </div>
+    </div>
+
+    <div class="quemSomos" id="quemSomos">
+        <h1>QUEM SOMOS?</h1>
+        <div class="imagemTexto">
+            <div class="item">
+                <img src="./Imagens/missao.png" alt="Imagem 1">
+                <p><strong>MISSÃO</strong></p>
+                <p class="textoMissao"> Proporcionar momentos felizes e saudáveis para animais de estimação
+                    e seus donos, oferecendo serviços de passeios e cuidados de alta qualidade,
+                    promovendo o bem-estar e a harmonia entre pets e suas famílias.</p>
+            </div>
+            <div class="item">
+                <img src="./Imagens/visao.png" alt="Imagem 2">
+                <p><strong>VISÃO</strong></p>
+                <p class="textoVisao"> Ser reconhecida como a principal referência em serviços de passeios para
+                    animais de estimação em Brasília e região, destacando-se pelo compromisso
+                    com a excelência, a inovação e o cuidado individualizado.</p>
+            </div>
+            <div class="item">
+                <img src="./Imagens/valor.png" alt="Imagem 3">
+                <p><strong>VALORES</strong></p>
+                <ul class="textoValores">
+                    <li> Bem-estar Animal</li>
+                    <li> Compromisso com a Qualidade</li>
+                    <li> Ética e Transparência</li>
+                    <li> Respeito</li>
+                    <li> Responsabilidade Ambiental</li>
+                    <li> Inovação</li>
+                    <li> Trabalho em Equipe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="linha"></div>
+
+
+    <div class="quemSomos" id="quemSomos">
+
+        <div class="container" id="containerEquipe">
+            <div class="imagemEquipe">
+                <img src="./Imagens/equipe.png" alt="Equipe">
+            </div>
+
+            <div class="textoSobreEquipe">
+                <h2>CONHEÇA NOSSA EQUIPE</h2>
+                <p>Na imagem, vemos uma equipe sorridente e dedicada da "Patinhas Felizes".
+                    À direita, está a fundadora e diretora executiva da empresa, Maria Silva,
+                    carinhosamente conhecida como "Mara dos Pets". Maria está vestindo uma blusa
+                    de cor mais clara, destacando-se sutilmente dos outros membros da equipe.</p>
+
+                <p><u>Nomes e cargos da esquerda para a direita:</u></p>
+
+                <ul>
+                    <li>Ana Castro - Gerente de Operações Caninas</li>
+                    <li>Pedro Oliveira - Treinador Chefe e Especialista em Comportamento Animal</li>
+                    <li>Carla Mendes - Supervisora de Passeios e Atendimento ao Cliente</li>
+                    <li>Lúcia Santos - Responsável pelo Cuidado e Bem-Estar dos Pets</li>
+                    <li>Maria "Mara dos Pets" Silva - Fundadora e CEO</li>
+                    <li>Isabela Lima - Coordenadora de Marketing e Comunicação</li>
+                </ul>
+
+                <h3>Afinal, o que todos os nossos membros tem em comum?</h3>
+
+                <p>Cada membro da equipe traz consigo uma paixão compartilhada por animais e um compromisso
+                    inabalável em fornecer os melhores serviços de passeio com cachorros, garantindo assim momentos
+                    de alegria, segurança e bem-estar para os pets e seus tutores.</p>
+            </div>
+        </div>
+        <div class="beneficios" id="beneficios">
+            <h2>BENEFÍCIOS</h2>
+        </div>
+
+        <div id="content" class="content">
+            <div id="imagem1" class="quadrado imagem"></div>
+            <div id="texto1" class="quadrado texto">
+                <h2>Bem-Estar do Animal</h2>
+                <p>Os passeios regulares desempenham um papel crucial no bem-estar físico e mental do seu animal de
+                    estimação. Além de proporcionarem exercícios essenciais para manter a saúde física, essas atividades
+                    também estimulam os sentidos do seu pet, permitindo que ele explore e interaja com o ambiente ao seu
+                    redor. </p>
+            </div>
+            <div id="texto2" class="quadrado texto">
+                <h2>Socialização Saudável</h2>
+                <p>Além de promover o bem-estar físico e mental do seu animal de estimação, nossos passeios proporcionam
+                    oportunidades valiosas de socialização. Seu pet terá a chance de interagir com outros cães e pessoas
+                    de maneira segura e supervisionada, o que contribui para um comportamento mais equilibrado e
+                    sociável em diferentes ambientes.</p>
+            </div>
+            <div id="imagem2" class="quadrado imagem"></div>
+        </div>
+
+        <div class="textoAvaliacoes">
+            <h2>Veja as avaliações dos nossos clientes</h2>
+        </div>
+
+        <div class="tracos">
+            <img src="./Imagens/linhaTracejada.png">
+        </div>
+
+        <div class="avaliacao">
+            <div class="avatar" style="background-image: url('./Imagens/clienteUm.jpg')"></div>
+            <div class="conteudo">
+                <span class="nomeUsuario">Lívia</span>
+                <div class="estrelas">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                </div>
+                <div class="comentario">
+                    "Estou muito grata pelo serviço excepcional prestado pela Patinhas Alegres.
+                    Eles são flexíveis, confiáveis e verdadeiros amantes de animais. Meu cachorro sempre volta para
+                    casa feliz e cansado depois de um dia de passeio com eles!"
+                </div>
+            </div>
+        </div>
+        <div class="avaliacao">
+            <div class="avatar" style="background-image: url('./Imagens/clienteDois.jpg')"></div>
+            <div class="conteudo">
+                <span class="nomeUsuario">Carlos</span>
+                <div class="estrelas">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                </div>
+                <div class="comentario">
+                    "A equipe da Patinhas Alegres é incrível! Eles realmente se importam com o bem-estar dos animais
+                    e sempre proporcionam experiências divertidas e seguras para o meu peludo. Confio neles totalmente
+                    para cuidar do meu animal de estimação."
+                </div>
+            </div>
+        </div>
+        <div class="avaliacao">
+            <div class="avatar" style="background-image: url('./Imagens/clienteTres.jpg')"></div>
+            <div class="conteudo">
+                <span class="nomeUsuario">Joana</span>
+                <div class="estrelas">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                    <img src="./Imagens/estrela.png" alt="Estrela Cheia">
+                </div>
+                <div class="comentario">
+                    "Não tenho palavras para expressar minha gratidão à equipe da Patinhas Alegres! Eles
+                    transformaram a vida do meu cachorro com seus passeios diários. Ele está mais feliz, saudável e
+                    sociável do que nunca. Recomendo a todos os donos de animais!"
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-container" id="contratarServicos">
+            <div class="cta-text">
+                <h2>DESEJA CONTRATAR NOSSOS SERVIÇOS?</h2>
+            </div>
+            <div>Caso queira nos contratar e saber mais informações, clique no botão abaixo e receba mais detalhes sobre
+                o
+                nosso serviço.</div>
+            <button class="cta-button" onclick="openModal()">Receber mais detalhes</button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Preencha o formulário</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="celular">Celular:</label>
+                    <input type="text" id="celular" name="celular" required><br><br>
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                        <option value="">Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select><br><br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required><br><br>
+                    <div class="botoes">
+                        <input type="button" class="btn btn-primary" value="Limpar" id="btnLimpar">
+                        <input type="button" class="btn btn-primary" value="Salvar" id="btnEnviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>Patinhas Felizes &copy; 2024 - Brasília-DF, CEP: 12345-678</p>
+            <p>Contato: contato@patinhasfelizes.com | Tel: (61) 1234-5678</p>
+        </footer>
+
+        <script src="./Script/script.js"></script>
+
+</body>
+
+</html>
